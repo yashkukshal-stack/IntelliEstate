@@ -41,7 +41,7 @@ scikit-learn: Used for building and evaluating machine learning models.
 
 pandas & numpy: Essential libraries for data manipulation, analysis, and numerical operations.
 
-joblib: Used to save the trained machine learning model for later use in the web application.
+joblib: Used to save the trained machine learning model for later use.
 
 # Methodology 📊
 Data Preprocessing: The pipeline began by cleaning and preparing the raw data. This included handling missing values using imputation and creating a new feature, TAXRM (a ratio of property tax to the number of rooms), to improve predictive power.
