@@ -34,7 +34,9 @@ Robust Predictive Model: The model uses historical data to predict house prices 
 
 Scalable Solution: The pipeline is built to handle new data and provide valuations on demand.
 
-Technical Stack 🛠️
+Data Visualization: Exploratory Data Analysis (EDA) was performed using matplotlib and seaborn to understand data distributions and relationships between features.
+
+# Technical Stack 🛠️
 Python: The core programming language for the entire project.
 
 scikit-learn: Used for building and evaluating machine learning models.
@@ -42,6 +44,8 @@ scikit-learn: Used for building and evaluating machine learning models.
 pandas & numpy: Essential libraries for data manipulation, analysis, and numerical operations.
 
 joblib: Used to save the trained machine learning model for later use.
+
+Matplotlib and Seaborn: For exploratory data analysis.
 
 # Methodology 📊
 Data Preprocessing: The pipeline began by cleaning and preparing the raw data. This included handling missing values using imputation and creating a new feature, TAXRM (a ratio of property tax to the number of rooms), to improve predictive power.
